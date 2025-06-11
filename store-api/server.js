@@ -80,7 +80,7 @@ app.put('/products/:id', async (req, res)=> {
     }
     catch(err)
     {
-        req.status(500).send(err);
+        res.status(500).send(err);
     }
 });
 
@@ -91,6 +91,6 @@ app.delete('/products/:id', async (req, res)=> {
         res.send(product);
     }
     catch(err){
-        req.status(500).send(err);
+        res.status(500).send(err);
     }
 });

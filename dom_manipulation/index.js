@@ -17,6 +17,13 @@ icon.style.marginRight = "10px";
 
 newDiv.appendChild(icon);
 
+const link = document.createElement("a");
+link.href = "https://www.google.com";
+link.target = "_blank";
+link.style.textDecoration = "none";
+
+newDiv.appendChild(link);
+
 const text = document.createElement("span");
 text.textContent = "This is a cool dynamic box!";
 
@@ -54,3 +61,7 @@ removeButton.addEventListener("click", ()=>{
         newDiv.removeChild(lastIcon);
     }
 });
+
+// Add the icon to the link
+link.appendChild(icon);
+

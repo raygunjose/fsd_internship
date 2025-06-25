@@ -1,0 +1,32 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.idea/
+ios/
+linux/
+macos/
+web/
+windows/
+test/
+android/
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+.pub/
+flutter_*.png
+
+# Others
+*.iml
+*.lock
+*.log
+*.tmp
+*.DS_Store
+.metadata
+analysis_options.yaml

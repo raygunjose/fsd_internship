@@ -1,6 +1,13 @@
-# Ignore node_modules folder
-node_modules/
+# OS files
+.DS_Store
+Thumbs.db
 
-# Ignore package.json and package-lock.json
-package.json
+# IDE/editor settings
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
+node_modules/
 package-lock.json
+package.json
